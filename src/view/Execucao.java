@@ -8,6 +8,8 @@ public class Execucao {
 
 	public static void main(String[] args) {
 		Professor p = new Professor();
+		//OBS :: ESTE CÓDIGO FOI ALTERADO COM UM COMENTÁRIO
+		//COMENTÁRIO PARA TESTE PARA REALIZAÇÃO DO UPDATE NO GITHUB
 		
 		p.setNome(JOptionPane.showInputDialog(null,"Digite seu nome"));
 		p.setEndereco(JOptionPane.showInputDialog(null,"Digite seu endereco"));
